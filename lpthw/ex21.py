@@ -31,3 +31,4 @@ print("Here is a puzzle.")
 what = add(age, subtract(height, multiply(weight, divide(iq, 2))))
 
 print(f"That becomes: {round(what)} Can you do that by hand?")
+#(35+(74-(180 * 25) = -4391

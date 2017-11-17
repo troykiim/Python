@@ -1,0 +1,79 @@
+#This is lesson 22 from 'Learn Python Hard Way'
+
+#Special Characters
+Character : Name : Description
+
+() : open and close parenthesis : used with functions
+"" : '' : open and close quotes : encloses a string
+# : pound sign : precedes a comment line
+''' ''' : paragraph comments : encloses a paragraph #comment
+
+#Numeric Operators
+Name : Meaning : Example = Result
+
++ : addition : 34 + 1 = 35
+- : subtraction : 34.0 - 0.1 = 33.9
+* : multiplication : 300 * 3 = 9000
+/ : float division : 1 / 2 = 0.5
+// : interger division : 1 // 2 = 0
+** : exponentiation : 4 ** 0.5 = 2.0
+% : remainder : 20 % 3 = 2
+
+#Augmented Assignment Operators
+Operator : Name : Example : Equivalent
+
++= : addition assignment : i += 7 : i = i + 7
+-= : subtraction assignment : i -= 7 : i = i - 7
+*= : multiplication assignment : i *= 7 : i = i * 7
+/= : float division assignment : i /= 7 : i = i / 7
+//= : interger division assignment : i //= 7 : i = i // 7
+**= : exponenet assignment : i **= 7 : i = i**7
+
+#Simple Built-in Python Functions
+Function : Description : Example
+
+abs(x) : returns the absolute value of x : abs(-2) is 2
+max(x1, x2,...) : returns the largest among x1, x2,... : max(1, 5, 2) is 5
+min(x1, x2,...) : returns the smallest among x1, x2,... : min(1, 5, 2) is 1
+pow(a, b) : returns a^b or a ** b : pow(2, 3) is 8
+round(x) : returns nearest interger to x : round(4.5) is 4
+round(x, n) : returns float value rounded to n digits : round(5.466, 2) is 5.47
+
+#math.function()
+Function : Description : Example
+fabs(x) : returns absolute value as a float : fabs(-2) is 2.0
+ceil(x) : rounds x up to nearest interger and returns that interger : ceil(2.1) is 3
+floor(x) : rounds x down to nearest interger and returns that interger: floor(2.1) is 2
+exp(x) : returns the exponential function of x (e^x) : exp(1) is 2.71828
+log(x) : returns the natural logarightm of x : log(2.71828) is 1
+sqrt(x) : returns the square root of x : sqrt(4.0) is 2
+sin(x) : returns the sine of x in radians : sin(math.pi) is 0
+asin(x) : returns the angle in radians for the inverse of sine : asin(1.0) is 1.57
+cos(x) : returns the cosine of x in radians : cos(math.pi) is -1
+acos(x) : returns the angle in radians for the invers of cosine : acos(1.0) is 0
+tan(x) : returns the tangent of x in radians : tan(math.pi / 4) is 1
+degrees(x) : converts angle x from radians to degrees : degrees(1.57) is 90
+radians(x) : converts angle x from degrees to radians : radians(90) is 1.57
+
+#turtle.function()
+Method : Description
+turtle.pendown() : pulls the pen down-draws when moving
+turtle.penup() : picks up the up-no drawing
+turtle.pensize(width) : sets line thickness to width
+turtle.forward(d) : moves turtle forward by the specified distance in the direction the turtle is facing
+turtle.backward(d) : moves the turtle backward by the specified distance in the opposite direction the
+                     turtle is headed.
+turtle.right(angle) : turns the turtle right by the specified angle
+turtle.left(angle) : turns the turtle left by the specidied angle
+turtle.goto(x, y) : moves the turtle to specified position
+turtle.setx(x) : moves the turtle's x-coordinate to the specified position
+turtle.sety(y) : moves the turtle's y-coordinate to the specified position
+turtle.setheading(angle) : sets the orientation of the turtle to a specified angle. 0-east, 90-north,
+                           180-west, 270-south
+turtle.home() : moves the turtle back to the origin (0, 0) and facing east
+turtle.circle(r, ext, step) : draws a circle with the specified radius, extent, and step
+turtle.dot(diameter, color) : draws a circle with the specified diameter and color
+turtle.undo() : undo (repeatedly) the last turtle action(s).
+turtle.speed(s) : sets the turtle's speed to an interger between 1 and 10, 10 being fastest
+
+# page 83 table 37
